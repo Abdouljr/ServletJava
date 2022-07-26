@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>MonServletJsp</display-name>
+    <servlet-name>MonServletJsp</servlet-name>
+    <servlet-class>com.maiga.MonServletJsp.MonServletJsp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MonServletJsp</servlet-name>
+    <url-pattern>/MonServletJsp</url-pattern>
+  </servlet-mapping>
+ 
+  
+  <servlet>
+    <description></description>
+    <display-name>MonServletJsp2</display-name>
+    <servlet-name>MonServletJsp2</servlet-name>
+    <servlet-class>com.maiga.MonServletJsp2.MonServletJsp2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MonServletJsp2</servlet-name>
+    <url-pattern>/MonServletJsp2</url-pattern>
+  </servlet-mapping>
+</web-app>
